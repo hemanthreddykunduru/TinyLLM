@@ -40,7 +40,8 @@ The system is built with a modular architecture comprising four core components:
 
 The following diagram illustrates the complete system workflow and component interactions:
 
-```mermaidflowchart TD
+```mermaid
+flowchart TD
     Start([🚀 Application Start]) --> Init{Initialize System}
     Init --> TokenChoice[Select Tokenizer Type<br/>BPE or SentencePiece]
     TokenChoice --> MainMenu{📋 Main Menu}
